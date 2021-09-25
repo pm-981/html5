@@ -7,11 +7,24 @@
     <title>小米导航栏</title>
 </head>
 <style>
-    div{
+    .di{
         width: 300px;
         border: solid 4px rebeccapurple;
         background-color: seashell;
     }
+    #hear{
+        height:40px;
+        background-color:lightcyan ;
+        margin-bottom: 40px;
+        
+        text-align: center;
+    }
+    .na{
+        align-items: center;
+        color: seagreen;
+        font-size: 15;
+    }
+    
     #g{
         color: sienna;
         font-size: 15px;
@@ -54,8 +67,19 @@
      
 </style>
 <body>
-    <div>
-        <nav>
+    <div id="hear">
+        <a href="#小米手机"  target="_blank" id="g">   小米手机   </a>
+        <a href="#小米平板"  target="_blank" id="l">   小米平板  </a>
+        <a href="#小米家电"  target="_blank" id="k">   小米家电  </a>
+
+        <a href="#电视"  target="_blank" id="f">   电视   </a>
+
+        <a href="#电脑"  target="_blank" id="z">   电脑   </a>
+
+        
+    </div>
+    <div class="di">
+        <nav class="na">
             <ol>
                 <br>
                 <li><a href="https://www.mi.com/buy/detail?product_id=14798" target="_blank" id="g" > 小米11</a></li>
@@ -82,6 +106,5 @@
        </nav>
     </div>
     <!-- id属性只能调用一次  class类选择器可以反复调用-->
-
 </body>
 </html>
